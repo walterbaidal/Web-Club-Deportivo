@@ -1,0 +1,56 @@
+.navbar-nav li a {
+	color: #ECECEC !important;
+	font-size: 21px !important;
+}
+
+.collapse {
+	background-color: #fb2064bd !important;
+}
+
+.current {
+	background-color: #221c3599; /* original #221c35db; first try: #221c3575; */
+}
+
+.navbar-nav > li:hover, .navbar-default .navbar-nav > li:focus {
+    background-color: #221c3599 !important;
+}
+
+
+.navbar {
+	padding: 0 !important;
+}
+
+.nav-item > a{
+	margin: 0.4rem;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+	/*background-image: url("https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-20/global-assets/common/featuredimage.png.adapt.crop191x100.1200w.png");*/
+	background-color: #0c0f17d6 !important;
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+
+.container {
+    padding-top: 5%;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #ed4687;
+    color: #ECECEC;
+  }
